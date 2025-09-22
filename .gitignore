@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Public files
-public/AngelContrerasResume.pdf
+public/*
