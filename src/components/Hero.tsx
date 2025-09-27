@@ -5,11 +5,19 @@ import { Github, Linkedin, Mail } from "lucide-react";
 export default function Hero() {
     return (
         <section className="flex flex-col items-center text-center py-20 px-6">
+            <motion.img
+                src="../../public/Pro_Headshot.png"
+                alt="Angel Contreras"
+                className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover shadow-lg border-4 border-blue-600"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6 }}
+            />
             <motion.h2 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-4xl font-bold mb-4">
                 Graduate Assistant | Aspiring Software Engineer
             </motion.h2>
             <p className="max-w-2xl mb-6">
-                MBA student and Computer Science graduate with experience in lab systems, web development, and full-stack projects. Passionate about building efficient applications and supporting student success.
+                MBA student and Computer Science graduate with experience in lab systems, web development, and full-stack projects. Passionate about building efficient applications and learning best coding practices & tools.
             </p>
             <div className="flex gap-4">
                 <a href="mailto:acontreras9450@gmail.com"><Mail /></a>

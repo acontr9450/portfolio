@@ -4,6 +4,7 @@ export default function Navbar() {
         <nav className="flex justify-between items-center p-6 shadow-md">
         <h1 className="text-2xl font-bold">Angel Contreras</h1>
         <div className="flex gap-6">
+          <a href="#about">About</a>
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
