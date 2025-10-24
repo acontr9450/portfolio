@@ -1,7 +1,7 @@
 export default function Projects() {
     return (
         <section id="projects" className="py-16 px-8 text-indigo-300">
-            <h2 className="text-3xl font-bold mb-6 text-amber-200">Projects</h2>
+            <h2 className="text-4xl font-bold mb-6 text-center text-indigo-200 underline decoration-indigo-500">Projects</h2>
             <div className="grid md:grid-cols-2 gap-6">
                 <div className="p-6 border rounded-xl shadow">
                     <h3 className="text-xl font-semibold text-indigo-500">Weather Run Advisor</h3>

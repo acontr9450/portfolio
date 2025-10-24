@@ -24,10 +24,11 @@ section {
 }
 
 a {
-  font-weight: 500;
+  font-weight: 700;
   color: #646cff;
   text-decoration: inherit;
 }
+
 
 a:hover {
   color: #e4e5ff;
@@ -46,6 +47,7 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
 
 
 

@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id="about" className="py-20 px-6 max-w-4xl mx-auto text-indigo-300">
-      <h2 className="text-3xl font-bold mb-6 text-center text-amber-200">About Me</h2>
+      <h2 className="text-4xl font-bold mb-6 text-center text-indigo-200 underline decoration-indigo-500">About Me</h2>
       
       <p className="mb-6 leading-relaxed">
         I'm pursuing my MBA at Tarleton State University with a background in Computer Science. 
